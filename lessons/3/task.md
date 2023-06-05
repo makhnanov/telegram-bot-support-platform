@@ -34,6 +34,9 @@ HTML, CSS, JS, PHP - не строго типизированные и не ст
 Переход к нужной строке осуществляется через "OK google"
 
 # Solution
+- В выполнении задачи помогла статья и видео: https://html5css.ru/html/html_css.php
+- https://www.youtube.com/watch?v=9WBwrARLdpQ
+- https://ru.bem.info/methodology/
 
 
 # ToDo / Remark / Review

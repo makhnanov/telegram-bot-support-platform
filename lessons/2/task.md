@@ -5,14 +5,16 @@
 - и сделай так чтобы он был по центру через justify-content родителя.
 - Почитай про flexbox вёрстку для пониммания.
 - Стили добавляй через inline. Ok Google "inline стили css".
-
+- https://flexboxfroggy.com/
 
 # Solution
-
+- Для создания блока воспользовался данной статьей: http://htmlbook.ru/html/div
+- Также для ознакомления с Flex помогло видео: https://www.youtube.com/watch?v=eVZEwEQg4pg&t=54s
+- https://semakin.dev/2020/05/no_newline_at_end_of_file/
 
 # ToDo / Remark / Review
 Пример инлайн стиля:
-<div style="color: red;"></div>
+```<div style="color: red;"></div>```
 
 Это уже не инлайн. Дополнительно опиши разницу между этими двумя вариантами использования стилей.
 В таком варианте надо будет следующее задание делать.
