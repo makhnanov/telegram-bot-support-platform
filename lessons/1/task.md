@@ -1,3 +1,5 @@
+![1](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/1/img.png)
+
 # Task 1
 - Напиши что такое HTML, CSS, JS.
 - Создай базовый пустой шаблон HTML документа в index.html

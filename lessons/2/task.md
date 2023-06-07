@@ -1,3 +1,5 @@
+![2](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/2/img.png)
+
 # Task 2
 - Создай пустой блок в body HTML документа
 - Сделай его максимальной шириной и flex

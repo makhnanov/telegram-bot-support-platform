@@ -1,3 +1,5 @@
+![3](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/3/img.png)
+
 # Task 3
 Для стилизации используй css классы.
 Перемести все стили в
