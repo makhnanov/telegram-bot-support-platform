@@ -6,5 +6,7 @@
 - Имя отправителя и рандомный текст последнего сообщения, всё пока хардкодом - потом оно будет браться с сервера.
 
 # Solution
-
+- Для выполнения задачи пользовался статейками http://htmlbook.ru/css/position 
+- https://ru.hexlet.io/qna/html/questions/kak-sdelat-prokrutku-stranitsy-v-html
+- И видео https://www.youtube.com/watch?v=cTNVhD8HkDU
 # ToDo / Remark / Review

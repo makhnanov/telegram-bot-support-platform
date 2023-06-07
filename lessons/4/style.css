@@ -1,3 +1,55 @@
-        .box {display: flex; justify-content: space-between;}
-           .block-1 {width: 20%;height: 50vh;border: 1px solid black;}
-           .block-2 {width: 70%;height: 50vh;border: 1px solid black;}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-1 {
+    width: 20%;
+    height: 100vh;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.user {
+    border: 1px solid black;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+}
+
+.user-name {
+    position: absolute;
+    left: 80px;
+    top: 25px;
+
+}
+
+.massage {
+    position: absolute;
+    left: 80px;
+    top: 55px;
+
+}
+
+.user img {
+    position: absolute;
+    top: 10px;
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+
+.block-2 {
+    width: 70%;
+    height: 300vh;
+    border: 1px solid black;
+}
