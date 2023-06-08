@@ -9,4 +9,10 @@
 - Для выполнения задачи пользовался статейками http://htmlbook.ru/css/position 
 - https://ru.hexlet.io/qna/html/questions/kak-sdelat-prokrutku-stranitsy-v-html
 - И видео https://www.youtube.com/watch?v=cTNVhD8HkDU
+
 # ToDo / Remark / Review
+- Страница не должна скроллиться.
+- Скроллиться должен только блок с юзерами. И только горизонтально.
+- Создай, пожалуйста, отдельный css файл для user* стилей.
+
+### :x:
