@@ -1,58 +1,36 @@
 body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .box {
     display: flex;
-    justify-content: space-between;
+    column-gap: 10px;
 }
 
 .block-1 {
-    width: 20%;
+    width: 398px;
     height: 100vh;
     border: 1px solid black;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
-.user {
-    border: 1px solid black;
-    height: 10vh;
-    /* Лучше будет задать min-height и не пользоваться отностительностью в этом случае */
-    width: 100%;
-    /* Аналогично min-width */
-    position: relative;
-    /* position тут не нужен  */
-}
-
-.user-name {
-    position: absolute;
-    left: 80px;
-    top: 25px;
-
-}
-
-.massage {
-    position: absolute;
-    left: 80px;
-    top: 55px;
-#ubl
-}
-
-.user img {
-    position: absolute;
-    top: 10px;
-    width: 4rem;
-    height: 4rem;
-    display: block;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #fff;
-}
-
-#ubl
 .block-2 {
-    width: 70%;
-    height: 300vh;
-    border: 1px solid black;
-}#nolbl
+    width: fit-content;
+}
+
+.massages {
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    line-height: normal;
+    border: 1px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+}
+
