@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.box {
+    display: flex;
+    column-gap: 10px;
+}
+
+.block-1 {
+    width: 398px;
+    height: 100vh;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.block-2 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.chat {
+    min-width: 610px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.user_massage {
+    width: fit-content;
+    height: fit-content;
+    text-align: start;
+    max-width: 200px;
+    max-height: fit-content;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+}
+.support {
+    align-self: end;
+}
+
+
