@@ -1,0 +1,24 @@
+
+.chat-massage {
+    width: fit-content;
+    height: fit-content;
+    text-align: start;
+    max-width: 200px;
+    max-height: fit-content;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+}
+
+.chat-massage_client {
+    border-radius: 0 20px 20px 14px;
+    box-shadow: 2px 2px 4px #888;
+    background-color: #e5e7fb;
+}
+
+.chat-massage_support {
+    border-radius: 17px 0 12px 18px;
+    align-self: end;
+    box-shadow: -2px 3px 4px #888;
+    background-color: #c9e1cd;
+}
