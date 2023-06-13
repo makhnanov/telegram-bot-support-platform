@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.box {
+    display: flex;
+    column-gap: 10px;
+}
+
+.block-1 {
+    width: 398px;
+    height: 100vh;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chat-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("/lessons/5/img/tg_pattern_01-150x150.webp");
+    background-color: darkcyan;
+}
+
+.chat {
+    min-height: 800px;
+    min-width: 610px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px 56px 56px 56px;
+
+}
+
+.chat-form_input {
+    text-align: start;
+    min-width: 610px;
+    min-height: fit-content;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 50px 50px 1px 50px;
+    box-shadow: -2px 3px 4px #888;
+    background-color: white;
+}
+
+.chat-form_submit {
+    background-color: lightgreen;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+}
