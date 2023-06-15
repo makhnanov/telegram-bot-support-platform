@@ -1,0 +1,1 @@
+rm -f README.md && pandoc -s $(/usr/bin/find /var/www/telegram-bot-support-platform/ -name "*.md" -not -path "./README.md" -not -path "./lessons/abbreviations.md" -print0 | xargs -0 grep -Pl "(:heavy_check_mark:|:x:)" | sort -rV) -o README.md

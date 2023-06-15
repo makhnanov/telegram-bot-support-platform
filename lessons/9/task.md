@@ -1,3 +1,5 @@
+![9](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/9/img.png)
+
 # Task 9
 - Поздравляю если ты дошёл до этого момента и не сдался - возьми с полки пирожок. Ты КРАСАВЧЕГ!
 - Базовые понимания фронта у тебя уже есть.

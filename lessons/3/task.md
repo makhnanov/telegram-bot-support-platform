@@ -43,4 +43,4 @@ Editor -> Code Style -> HTML -> "Do not indent children of:" -> В самом н
 - https://ru.bem.info/methodology/
 
 # ToDo / Remark / Review
-:heavy_check_mark:
+# :heavy_check_mark:
