@@ -1,3 +1,5 @@
+![6](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/6/img.png)
+
 # Task 6
 - В переписке добавь инпут снизу для ввода текста. Стилизуй его по красоте.
 - Научись подключать js и использовать базовые инструменты отладки console.log и alert
