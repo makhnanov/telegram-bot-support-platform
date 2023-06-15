@@ -4,5 +4,7 @@
 - Пока что скрипт с этими командами зашей в index.html в тег <script>
 
 # Solution
+// Add your workflow steps
 
 # ToDo / Remark / Review
+### :heavy_check_mark:
