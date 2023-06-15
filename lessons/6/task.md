@@ -6,7 +6,8 @@
 - Пока что скрипт с этими командами зашей в index.html в тег <script>
 
 # Solution
-// Add your workflow steps
-
+- Для добавления "Input" воспользовался статьей https://www.sravni.ru/kursy/info/kak-sozdat-chat-dlya-sajta/
+- С инструментами отладки JavaScript ознакомился: https://habr.com/ru/articles/540732/
+В целом проблем не возникло.
 # ToDo / Remark / Review
 # :heavy_check_mark:
