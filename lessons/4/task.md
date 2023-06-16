@@ -1,5 +1,3 @@
-![4](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/4/img.png)
-
 # Task 4
 - Стили вынеси в отдельный файл и подключи его в head.
 - Левый блок будут чаты, а правый блок - то что в чате написано.
@@ -7,14 +5,16 @@
 - В каждом блоке будет фотка сделай ещё какую-нибудь рандомную и закруглённую - не большую.
 - Имя отправителя и рандомный текст последнего сообщения, всё пока хардкодом - потом оно будет браться с сервера.
 
-# Solution
+### Solution
 - Для выполнения задачи пользовался статейками http://htmlbook.ru/css/position 
 - https://ru.hexlet.io/qna/html/questions/kak-sdelat-prokrutku-stranitsy-v-html
 - И видео https://www.youtube.com/watch?v=cTNVhD8HkDU
 
-# ToDo / Remark / Review
+### ToDo / Remark / Review
 - Страница не должна скроллиться.
 - Скроллиться должен только блок с юзерами. И только вертикально.
 - Создай, пожалуйста, отдельный css файл для user* стилей.
 
+### Result
+![4](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/4/img.png)
 # :heavy_check_mark:

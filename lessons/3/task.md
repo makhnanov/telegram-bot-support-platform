@@ -1,5 +1,3 @@
-![3](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/3/img.png)
-
 # Task 3
 Для стилизации используй css классы.
 Перемести все стили в
@@ -37,10 +35,13 @@ HTML, CSS, JS, PHP - не строго типизированные и не ст
 Подсказка:
 Editor -> Code Style -> HTML -> "Do not indent children of:" -> В самом начале удалить "html,body," -> Apply -> OK
 
-# Solution
+### Solution
 - В выполнении задачи помогла статья и видео: https://html5css.ru/html/html_css.php
 - https://www.youtube.com/watch?v=9WBwrARLdpQ
 - https://ru.bem.info/methodology/
 
-# ToDo / Remark / Review
+### ToDo / Remark / Review
+
+### Result
+![3](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/3/img.png)
 # :heavy_check_mark:

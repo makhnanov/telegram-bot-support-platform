@@ -1,4 +1,4 @@
-![7](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/7/img.png)
+# Yeah
 
 # Task 7
 
@@ -6,13 +6,14 @@
 -   Сделай так чтобы при нажатии на enter поле очищалось и добавлялось
     новое bubble сообщение к остальным вниз.
 
-# Solution
+### Solution
 
-# ToDo / Remark / Review
+### ToDo / Remark / Review
 
+### Result
+
+![7](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/7/img.png)
 :x:
-
-![6](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/6/img.png)
 
 # Task 6
 
@@ -25,18 +26,19 @@
     <script>
     ```
 
-# Solution
+### Solution
 
 -   Для добавления "Input" воспользовался статьей
     https://www.sravni.ru/kursy/info/kak-sozdat-chat-dlya-sajta/
 -   С инструментами отладки JavaScript ознакомился:
     https://habr.com/ru/articles/540732/ В целом проблем не возникло.
 
-# ToDo / Remark / Review
+### ToDo / Remark / Review
 
-# :heavy_check_mark:
+### Result
 
-![5](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/5/img.png)
+![6](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/6/img.png)
+\# :heavy_check_mark:
 
 # Task 5
 
@@ -45,7 +47,7 @@
     5.
 -   Добавить background для блока чата и сообщений
 
-# Solution
+### Solution
 
 -   Для создания bubble сообщения пользовался статьей:
     http://htmlbook.ru/blog/kak-sdelat-slovesnyi-puzyr-na-css3-bez-kartinok
@@ -55,11 +57,12 @@
     и правыми сообщениями. (К правому сообщению необходимо было
     добавить: align-self: end;)
 
-# ToDo / Remark / Review
+### ToDo / Remark / Review
 
-# :heavy_check_mark:
+### Result
 
-![4](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/4/img.png)
+![5](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/5/img.png)
+\# :heavy_check_mark:
 
 # Task 4
 
@@ -72,22 +75,23 @@
 -   Имя отправителя и рандомный текст последнего сообщения, всё пока
     хардкодом - потом оно будет браться с сервера.
 
-# Solution
+### Solution
 
 -   Для выполнения задачи пользовался статейками
     http://htmlbook.ru/css/position
 -   https://ru.hexlet.io/qna/html/questions/kak-sdelat-prokrutku-stranitsy-v-html
 -   И видео https://www.youtube.com/watch?v=cTNVhD8HkDU
 
-# ToDo / Remark / Review
+### ToDo / Remark / Review
 
 -   Страница не должна скроллиться.
 -   Скроллиться должен только блок с юзерами. И только вертикально.
 -   Создай, пожалуйста, отдельный css файл для user\* стилей.
 
-# :heavy_check_mark:
+### Result
 
-![3](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/3/img.png)
+![4](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/4/img.png)
+\# :heavy_check_mark:
 
 # Task 3
 
@@ -135,18 +139,19 @@
 Подсказка: Editor -\> Code Style -\> HTML -\> "Do not indent children
 of:" -\> В самом начале удалить "html,body," -\> Apply -\> OK
 
-# Solution
+### Solution
 
 -   В выполнении задачи помогла статья и видео:
     https://html5css.ru/html/html_css.php
 -   https://www.youtube.com/watch?v=9WBwrARLdpQ
 -   https://ru.bem.info/methodology/
 
-# ToDo / Remark / Review
+### ToDo / Remark / Review
 
-# :heavy_check_mark:
+### Result
 
-![2](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/2/img.png)
+![3](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/3/img.png)
+\# :heavy_check_mark:
 
 # Task 2
 
@@ -159,7 +164,7 @@ of:" -\> В самом начале удалить "html,body," -\> Apply -\> OK
 -   Стили добавляй через inline. Ok Google "inline стили css".
 -   https://flexboxfroggy.com/
 
-# Solution
+### Solution
 
 -   Для создания блока воспользовался данной статьей:
     http://htmlbook.ru/html/div
@@ -167,7 +172,7 @@ of:" -\> В самом начале удалить "html,body," -\> Apply -\> OK
     https://www.youtube.com/watch?v=eVZEwEQg4pg&t=54s
 -   https://semakin.dev/2020/05/no_newline_at_end_of_file/
 
-# ToDo / Remark / Review
+### ToDo / Remark / Review
 
 Пример инлайн стиля: `<div style="color: red;"></div>`
 
@@ -186,16 +191,17 @@ of:" -\> В самом начале удалить "html,body," -\> Apply -\> OK
 Такое ощущение что ты все задания уже прочитал заранее и сразу хочешь
 всё сделать)
 
-# :heavy_check_mark:
+### Result
 
-![1](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/1/img.png)
+![2](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/2/img.png)
+\# :heavy_check_mark:
 
 # Task 1
 
 -   Напиши что такое HTML, CSS, JS.
 -   Создай базовый пустой шаблон HTML документа в index.html
 
-# Solution
+### Solution
 
 HTML - это язык разметки, который мы используем для визуального и
 смыслового структурирования нашего web контента, например, определяем
@@ -213,6 +219,9 @@ JavaScript язык программирования, который позво�
 
 https://developer.mozilla.org/ru/docs/Learn/JavaScript/First_steps/What_is_JavaScript
 
-# ToDo / Remark / Review
+### ToDo / Remark / Review
 
-# :heavy_check_mark:
+### Result
+
+![1](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/1/img.png)
+\# :heavy_check_mark:

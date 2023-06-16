@@ -1,10 +1,8 @@
-![1](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/1/img.png)
-
 # Task 1
 - Напиши что такое HTML, CSS, JS.
 - Создай базовый пустой шаблон HTML документа в index.html
 
-# Solution
+### Solution
 HTML - это язык разметки, который мы используем для визуального и смыслового структурирования нашего web контента,
 например, определяем параграфы, заголовки, таблицы данных, или вставляем изображения и видео на страницу.
 https://skillbox.ru/media/code/chto_takoe_html/
@@ -18,5 +16,8 @@ JavaScript язык программирования, который позво�
 
 https://developer.mozilla.org/ru/docs/Learn/JavaScript/First_steps/What_is_JavaScript
 
-# ToDo / Remark / Review
+### ToDo / Remark / Review
+
+### Result
+![1](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/1/img.png)
 # :heavy_check_mark:
