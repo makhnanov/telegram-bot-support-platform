@@ -7,12 +7,12 @@
 - Стили добавляй через inline. Ok Google "inline стили css".
 - https://flexboxfroggy.com/
 
-### Solution
+### Solution:
 - Для создания блока воспользовался данной статьей: http://htmlbook.ru/html/div
 - Также для ознакомления с Flex помогло видео: https://www.youtube.com/watch?v=eVZEwEQg4pg&t=54s
 - https://semakin.dev/2020/05/no_newline_at_end_of_file/
 
-### ToDo / Remark / Review
+### Review:
 Пример инлайн стиля:
 ```<div style="color: red;"></div>```
 
@@ -27,6 +27,7 @@
 ```
 Такое ощущение что ты все задания уже прочитал заранее и сразу хочешь всё сделать)
 
-### Result
+### Result:
 ![2](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/2/img.png)
+
 # :heavy_check_mark:
