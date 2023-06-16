@@ -20,4 +20,5 @@ https://developer.mozilla.org/ru/docs/Learn/JavaScript/First_steps/What_is_JavaS
 
 ### Result
 ![1](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/1/img.png)
+
 # :heavy_check_mark:
