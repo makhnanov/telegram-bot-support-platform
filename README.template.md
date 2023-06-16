@@ -1,6 +1,6 @@
 # Support Platform for Telegram Bot
 
-## Проект пошагового самостоятельного обучения [ske11l](https://github.com/ske11l) программированию под руководством [Roman Bakirov](https://github.com/makhnanov?tab=repositories/)
+## Проект пошагового самостоятельного обучения [Dima](https://github.com/ske11l) программированию под руководством [Roman Bakirov](https://github.com/makhnanov?tab=repositories/)
 
 ## Цели проекта:
 - Освоить работу с Linux на примере ОС Xubuntu
