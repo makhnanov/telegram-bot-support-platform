@@ -39,11 +39,16 @@
 
 ### Solution:
 
+-   Научился использовать инструмент отладки console.log
+-   Научился объявлять переменную с помощью let, находить объект по id и
+    ClassName
+    https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/let
+
 ### Review:
 
 ### Result:
 
-![7](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/7/img.png)
+![7](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/7/img.gif)
 
 # :x:
 

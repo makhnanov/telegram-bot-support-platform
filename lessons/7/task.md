@@ -9,6 +9,6 @@
 ### Review:
 
 ### Result:
-![7](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/7/img.png)
+![7](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/7/img.gif)
 
 # :x:
