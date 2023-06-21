@@ -11,4 +11,4 @@
 ### Result:
 ![7](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/7/img.gif)
 
-# :x:
+# :heavy_check_mark:
