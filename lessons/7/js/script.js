@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(event){ // Содержи
     console.log("содержимое страницы загрузилось") // #ndd
     let submit= document.getElementById("chat-form__submit") // Здесь мы объявляем переменную (let), которая называется (submit) и сразу же присваиваем (=)
     // результат выполнения функции (getElementById) которая вызывается (.) от объекта (document), которая находит по аргументу ("chat-form__submit") div по id
-    function addNewBubble(){
+    function addNewBubble(){ // #csnr
         let input= document.getElementById("chat-form__input")
         let inputText = input.value
         console.log(inputText) // #ndd
