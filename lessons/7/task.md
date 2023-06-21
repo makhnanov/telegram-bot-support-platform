@@ -3,8 +3,8 @@
 - Сделай так чтобы при нажатии на enter поле очищалось и добавлялось новое bubble сообщение к остальным вниз.
 
 ### Solution:
--Научился использовать инструмент отладки console.log
--Научился объявлять переменную с помощью let, находить объект по id и ClassName  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/let
+- Научился использовать инструмент отладки console.log
+- Научился объявлять переменную с помощью let, находить объект по id и ClassName  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/let
 
 ### Review:
 
