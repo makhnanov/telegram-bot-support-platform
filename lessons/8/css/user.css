@@ -1,0 +1,46 @@
+.user_image-container {
+    margin: 4px;
+    padding: 6px;
+    align-self: center;
+    width: 54px;
+    height: 54px;
+}
+
+.user_data {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    row-gap: 4px;
+}
+
+.user_data-nickname {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 22px;
+    line-height: 22px;
+}
+
+.user img {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.user {
+    align-self: center;
+    display: flex;
+    border: 1px solid black;
+    min-height: 72px;
+    min-width: 398px;
+}
+
+.button {
+    align-self: center;
+    display: flex;
+    border: 1px solid black;
+    min-height: 72px;
+    min-width: 398px;
+}
