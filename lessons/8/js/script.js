@@ -25,14 +25,18 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
         "How do I open a folder?",
         "How do I run the command prompt?",
         "How to creat folder?",
-        "How  detect length in JavaScript?",
         "How to open Task Manager?",
         "How to declare a function in Java Script?",
     ]
+
     var supportMessages = [
         "To take a screenshot, press Win+Shift+S.",
         "Left-click the folder twice to open it.",
         "To open the command prompt press WIN+R.",
+        "Right-click on the desktop, then click Create folder",
+        "Press Ctrl+Alt+Del on the keyboard",
+        "First comes the keyword function, followed by the function name, then a list of parameters in parentheses separated by commas",
+        
     ]
 
     function addNewRandomBubble(bubbleText, isUser = true) {
@@ -59,9 +63,11 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
             while (chat.firstChild) {
                 chat.removeChild(chat.firstChild);
             }
-            for (let randomBubble = 0; randomBubble < 6; randomBubble++) {
-                addNewRandomBubble (userMessages[1]);
-                addNewRandomBubbleSupport (supportMessages[2]);
+            for (let randomBubble = 0; randomBubble < Math.random() * 7; randomBubble++) {
+                var rand = Math.floor(Math.random() * userMessages.length);
+                var rand = Math.floor(Math.random() * supportMessages.length);
+                addNewRandomBubble(userMessages[rand]);
+                addNewRandomBubbleSupport(supportMessages[rand]);
             }
         })
     }
