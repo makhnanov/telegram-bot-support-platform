@@ -42,6 +42,14 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
         message.classList.add("chat-message", "chat-message_client",)
         chat.appendChild(message)
     }
+    function addNewRandomBubbleSupport(bubbleText, isUser = true) {
+        let chat = document.getElementsByClassName("chat")[0]
+        var message = document.createElement("div");
+        message.innerHTML += bubbleText
+        message.classList.add("chat-message", "chat-message_support",)
+        chat.appendChild(message)
+    }
+
 
     let allUsers = document.getElementsByClassName("user")
     let allUsersCount = allUsers.length;
@@ -52,7 +60,8 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
                 chat.removeChild(chat.firstChild);
             }
             for (let randomBubble = 0; randomBubble < 6; randomBubble++) {
-                addNewRandomBubble (userMessages[0]);
+                addNewRandomBubble (userMessages[1]);
+                addNewRandomBubbleSupport (supportMessages[2]);
             }
         })
     }
