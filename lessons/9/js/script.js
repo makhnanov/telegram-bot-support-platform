@@ -1,4 +1,3 @@
-# Желательно не превышать ограничение по длине строки. Это касается и комментариев.
 // К глобальному объекту документ (document) добавим (.) слушатель событий (addEventListener) загрузки страницы (DOMContentLoaded)
 document.addEventListener("DOMContentLoaded", function (event) { // Содержимое функции (function(event) { ... }) выполнится когда документ будет загружен
     let submit = document.getElementById("chat-form__submit") // Здесь мы объявляем переменную (let), которая называется (submit) и сразу же присваиваем (=)
@@ -37,10 +36,9 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
         "Right-click on the desktop, then click Create folder",
         "Press Ctrl+Alt+Del on the keyboard",
         "First comes the keyword function, followed by the function name, then a list of parameters in parentheses separated by commas",
-        #ubl
+        #
     ]
 
-    // isUser не использзуется, а должен. 2 следующие функции почти одинаковы. Значит из них можно сделато одну. #refactor
     function addNewRandomBubble(bubbleText, isUser = true) {
         let chat = document.getElementsByClassName("chat")[0]
         var message = document.createElement("div");
@@ -68,8 +66,6 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
             for (let randomBubble = 0; randomBubble < Math.random() * 7; randomBubble++) {
                 var rand = Math.floor(Math.random() * userMessages.length);
                 var rand = Math.floor(Math.random() * supportMessages.length);
-                // Повторное объявление переменной недопустимо
-                // Желательно объявлять переменные по новому стандарту
                 addNewRandomBubble(userMessages[rand]);
                 addNewRandomBubbleSupport(supportMessages[rand]);
             }
