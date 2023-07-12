@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
                 var rand = Math.floor(Math.random() * userMessages.length,supportMessages.length);
                 addNewRandomBubble(userMessages[rand], false)
                 addNewRandomBubble(supportMessages[rand], true)
+                
             }
         })
     }

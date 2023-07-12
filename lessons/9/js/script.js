@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
         "Right-click on the desktop, then click Create folder",
         "Press Ctrl+Alt+Del on the keyboard",
         "First comes the keyword function, followed by the function name, then a list of parameters in parentheses separated by commas",
-        #
     ]
 
     function addNewRandomBubble(bubbleText, isUser = true) {
