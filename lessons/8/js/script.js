@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
                 chat.removeChild(chat.firstChild);
             }
             for (let randomBubble = 0; randomBubble < Math.random() * 7; randomBubble++) {
-                var rand = Math.floor(Math.random() * userMessages.length,supportMessages);
+                var rand = Math.floor(Math.random() * userMessages.length,supportMessages.length);
                 addNewRandomBubble(userMessages[rand], false)
                 addNewRandomBubble(supportMessages[rand], true)
             }
