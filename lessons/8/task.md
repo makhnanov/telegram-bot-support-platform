@@ -5,14 +5,9 @@
 - Сделай массив с рандомными фразами и добавляй их тоже штук по 20 при переключении.
 
 # Solution
-- ?
-- ?
-- ?
-- ?
-- ?
-- ?
-- ?
-- ?
+- Научился использовать циклы в JS 
+- Научился пользоваться методом Math.random() и добавлять его в цикл https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+- Научился использовать Условный (тернарный) оператор https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Conditional_operator
 
 # ToDo / Remark / Review
 - Заполнить Solution
