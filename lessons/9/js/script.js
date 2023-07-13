@@ -1,3 +1,12 @@
+
+function getDateTimeContainer(isSupport) {
+    let messageTimestamp = (new Date()).getTime();
+    let dateTimeContainer = document.createElement("div");
+    dateTimeContainer.classList.add("timing", isSupport ? "timing_support" : "timing_client")
+    dateTimeContainer.innerHTML = (new Date(messageTimestamp)).toUTCString();
+    return dateTimeContainer;
+}
+
 // К глобальному объекту документ (document) добавим (.) слушатель событий (addEventListener) загрузки страницы (DOMContentLoaded)
 document.addEventListener("DOMContentLoaded", function (event) { // Содержимое функции (function(event) { ... }) выполнится когда документ будет загружен
     let submit = document.getElementById("chat-form__submit") // Здесь мы объявляем переменную (let), которая называется (submit) и сразу же присваиваем (=)
@@ -6,7 +15,11 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
         let input = document.getElementById("chat-form__input")
         let inputText = input.value
         let chat = document.getElementsByClassName("chat")[0]
-        chat.innerHTML += '<div class="chat-message chat-message_support">' + inputText + '</div>'
+        let newUserMessage = document.createElement("div");
+        newUserMessage.classList.add("chat-message", "chat-message_support");
+        newUserMessage.innerHTML += inputText;
+        newUserMessage.appendChild(getDateTimeContainer(true))
+        chat.appendChild(newUserMessage);
         input.value = "";
     }
 
@@ -42,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
         let chat = document.getElementsByClassName("chat")[0]
         var message = document.createElement("div");
         message.innerHTML += bubbleText
+        message.appendChild(getDateTimeContainer(isUser))
         message.classList.add("chat-message", "chat-message_client",)
         chat.appendChild(message)
     }
@@ -49,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
         let chat = document.getElementsByClassName("chat")[0]
         var message = document.createElement("div");
         message.innerHTML += bubbleText
+        message.appendChild(getDateTimeContainer(isUser))
         message.classList.add("chat-message", "chat-message_support",)
         chat.appendChild(message)
     }
@@ -65,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
             for (let randomBubble = 0; randomBubble < Math.random() * 7; randomBubble++) {
                 var rand = Math.floor(Math.random() * userMessages.length);
                 var rand = Math.floor(Math.random() * supportMessages.length);
-                addNewRandomBubble(userMessages[rand]);
+                addNewRandomBubble(userMessages[rand], false);
                 addNewRandomBubbleSupport(supportMessages[rand]);
             }
         })

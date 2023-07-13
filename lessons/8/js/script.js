@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
         input.value = "";
     }
 
-    submit.addEventListener("click", function (e) {
+    submit.addEventListener("click", function (e) { # unsed parameter
         addNewBubbleFromInput();
     })
 
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function (event) { // Содерж
     let allUsers = document.getElementsByClassName("user")
     let allUsersCount = allUsers.length;
     for (let userIndex = 0; userIndex < allUsersCount; userIndex++) {
-        allUsers[userIndex].addEventListener("click", function (e) {
+        allUsers[userIndex].addEventListener("click", function (e) { # аналогично
             let chat = document.getElementsByClassName("chat")[0]
             while (chat.firstChild) {
                 chat.removeChild(chat.firstChild);

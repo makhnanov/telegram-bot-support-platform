@@ -1,9 +1,8 @@
-
 .chat-message {
     width: fit-content;
     height: fit-content;
     text-align: start;
-    max-width: 200px;
+    max-width: 80%;
     max-height: fit-content;
     margin: 5px;
     padding: 10px;
@@ -23,3 +22,16 @@
     background-color: #c9e1cd;
 }
 
+.timing {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #666;
+}
+
+.timing_support {
+    text-align: right;
+}
+
+.timing_client {
+    text-align: left;
+}
