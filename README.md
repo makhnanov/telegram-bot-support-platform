@@ -31,6 +31,26 @@
 
 ## Уже пройденные задания:
 
+![9](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/9/img.png)
+
+# Task 9. Учимся ставить задачи. Студент ставит задачу наставнику.
+
+## Наставник выполняет поставленную задачу, описывает её решение так, как хочет чтобы студент выполнял и описывал решение задач.
+
+-   [x] Необходимо добавить, чтобы в каждом bubble сообщении
+    отображалось время и дата отправки сообщения.
+-   Научился в гитхаб маркдауне создавать нумерованные списки
+-   Научился в гитхаб маркдауне создавать чекбоксы
+-   Вспомнил как работать в JS с датой.
+-   Модифицировал баблы, добавил туда текущую дату для каждого
+    сооббшения.
+-   Дата берётся из timestamp, так что когда подключится сервер - будет
+    легко изменить код.
+
+# ToDo / Remark / Review
+
+# :heavy_check_mark:
+
 ![8](https://github.com/makhnanov/telegram-bot-support-platform/blob/main/lessons/8/img.png)
 
 # Task 8
@@ -42,24 +62,20 @@
 
 # Solution
 
--   ?
--   ?
--   ?
--   ?
--   ?
--   ?
--   ?
--   ?
+-   Научился использовать циклы в JS
+-   Научился пользоваться методом Math.random() и добавлять его в цикл
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+-   Научился использовать Условный (тернарный) оператор
+    https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Conditional_operator
 
 # ToDo / Remark / Review
 
 -   Заполнить Solution
-
 -   Бага с большим количеством сообщений. Они не листаются и инпут ввода
     текста улетает вниз и его становится не видно. Исправишь в
     последующей задаче.
 
--   # :heavy_check_mark:
+# :heavy_check_mark:
 
 # Task 7
 
